@@ -1,4 +1,4 @@
-package waller
+package wallet
 
 import (
 	"fmt"
