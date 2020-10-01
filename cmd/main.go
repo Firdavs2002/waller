@@ -1,10 +1,9 @@
 package main
 
-import (
-	"github.com/Firdavs2002/waller/pkg/waller"
-)
+import "github.com/Firdavs2002/wallet/pkg/wallet"
 
 func main() {
-	svc := &waller.Services{}
-	RegisterAccount(svc, "+992000000001")
+	svc := &wallet.Services{}
+	svc.RegisterAccount("+9920000001")
+	svc.FindAccoundByIdmethod(1)
 }
